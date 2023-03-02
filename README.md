@@ -9,6 +9,7 @@ notion : https://www.notion.so/TypeScript-b3be64fe0f114241932ed65a96fa907b
 |02/24|typescript OOP|3.OOP|
 |02/26|typescript OOP|3.OOP-getter/setter & abstraction|
 |03/02|typescript OOP|3.OOP-polymorphism|
+|03/02|typescript OOP|3.OOP-compositon/abstract|
 
 
 
