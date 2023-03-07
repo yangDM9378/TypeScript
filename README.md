@@ -10,6 +10,8 @@ notion : https://www.notion.so/TypeScript-b3be64fe0f114241932ed65a96fa907b
 |02/26|typescript OOP|3.OOP-getter/setter & abstraction|
 |03/02|typescript OOP|3.OOP-polymorphism|
 |03/02|typescript OOP|3.OOP-compositon/abstract|
+|03/07|typescript OOP_challenge|4.OOP_challenge|
+|03/08|typescript generics|5.Generics|
 
 
 
