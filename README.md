@@ -12,6 +12,4 @@ notion : https://www.notion.so/TypeScript-b3be64fe0f114241932ed65a96fa907b
 |03/02|typescript OOP|3.OOP-compositon/abstract|
 |03/07|typescript OOP_challenge|4.OOP_challenge|
 |03/08|typescript generics|5.Generics|
-
-
-
+|06/19|typescript generics_challenge|5.Generics_challenge|
