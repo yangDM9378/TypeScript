@@ -14,3 +14,4 @@ notion : https://www.notion.so/TypeScript-b3be64fe0f114241932ed65a96fa907b
 |03/08|typescript generics|5.Generics|
 |06/19|typescript generics_challenge|6.Generics_challenge|
 |06/19|typescript api|7.API|
+|06/19|typescript exception|8.ExceptionHandler|
