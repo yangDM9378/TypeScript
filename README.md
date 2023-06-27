@@ -17,4 +17,6 @@ notion : https://www.notion.so/TypeScript-b3be64fe0f114241932ed65a96fa907b
 |06/19|typescript exception|8.ExceptionHandler|
 |06/22|typescript advanced type|9.AdvancedType-conditiontype|
 |06/25|typescript advanced type|9.AdvancedType|
+|06/27|typescript javascript|10.JavaScript|
+
 
