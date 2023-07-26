@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동민의 노트 웹페이지</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <script type="module" src="./dist/app.js" defer></script>
+</head>
+<body>
+  <div class="app">
+    <header class="main-header">
+      <h1 class="main-title">DongMin's Note</h1>
+      <ul class ='control-buttons'>
+        <!-- (li>button.create-button)*4 -->
+        <li><button id="button-image" class="create-button">Image</button></li>
+        <li><button id="button-video" class="create-button">Youtube</button></li>
+        <li><button id="button-note" class="create-button">Note</button></li>
+        <li><button id="button-todo" class="create-button">CheckList</button></li>
+      </ul>
+    </header>
+    <main class="document"></main>
+    <footer class="main-footer">
+      <p>dongmin pjt</p>
+    </footer>
+  </div>
+</body>
+</html>

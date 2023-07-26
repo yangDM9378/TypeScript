@@ -1,0 +1,110 @@
+:root {
+  --bg-main-color: #d3e3f180;
+  --bg-accent-color: #8daecb80;
+  --accent-color: #12376b;
+  --text-accent-color: #ffe498;
+  --text-edit-bg-color: #575757;
+  --border-color: #3f3f3f;
+  --shadow-color: #202020;
+  --document-bg-color: #c0c5dc50;
+  --component-bg-gradient: radial-gradient(circle, #646464e6 0%, #363636e6 100%);
+  --smokyblack: #32240c;
+  --black: #000000;
+  --translucent-black: #00000099;
+}
+
+li {
+  /* 리스트 스타일 없애기 */
+  list-style:none;
+  padding-left: 0;
+}
+
+p {
+  color: var(--smokyblack);
+}
+
+label {
+  color: var(--text-accent-color);
+}
+
+* {
+  outline: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: url('../assets/cool-background.png') center/cover no-repeat;
+  font-family: Roboto, Oxygen, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  background: var(--bg-main-color);
+  border-bottom : 1px solid var(--bg-accent-color);
+  text-align: center;
+}
+
+.main-title {
+  margin: 20px;
+  color: var(--accent-color);
+}
+
+.control-buttons {
+  display : flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-button {
+  margin:0.5em 1em;
+  text-align:center;
+  /* user-select: none; */
+  padding: 2em 5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+  /* background-color: skyblue; */
+  border-color: skyblue;
+  border-radius: 15px;
+}
+
+.document {
+  height: 100%;
+  overflow-y: auto;
+  background-color: var(--document-bg-color);
+  /* Firefox */
+  scrollbar-width: 6px;
+  scrollbar-color: var(--bg-accent-color);
+  /* scrollbar-face-color: var(--accent-color); */
+}
+
+.document::-webkit-scrollbar {
+  /* Safari and Chrome */
+  background-color: var(--bg-accent-color);
+  width: 6px;
+}
+
+.document::-webkit-scrollbar-thumb {
+  /* Safari and Chrome */
+  background-color: var(--accent-color);
+}
+
+.main-footer {
+  background: var(--bg-main-color);
+  border-top: 1px solid var(--bg-accent-color);
+  text-align: center;
+}

@@ -19,5 +19,6 @@ notion : https://www.notion.so/TypeScript-b3be64fe0f114241932ed65a96fa907b
 |06/25|typescript advanced type|9.AdvancedType|
 |06/27|typescript javascript|10.JavaScript|
 |06/28|typescript config|11.Config|
+|07/26|typescript project header & footer|PJT|
 
 
